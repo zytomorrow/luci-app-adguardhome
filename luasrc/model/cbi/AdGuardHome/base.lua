@@ -118,7 +118,7 @@ return value
 end
 ---- work dir
 o = s:option(Value, "workdir", translate("Work dir"), translate("AdGuardHome work dir include rules,audit log and database"))
-o.default     = "/usr/bin/AdGuardHome"
+o.default     = "/usr/bin/AdGuardHome/AdGuardHome"
 o.datatype    = "string"
 o.optional = false
 o.rmempty=false
